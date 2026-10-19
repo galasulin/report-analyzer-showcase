@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+demo/run.log
+src/config.json
+src/יומן שימוש.csv
+src/שגיאות.log
+tools/sanitize.py

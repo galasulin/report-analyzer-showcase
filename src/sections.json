@@ -1,0 +1,84 @@
+{
+  "_comment": "זיהוי הכותרות במסמך. pattern = ביטוי רגולרי על טקסט הכותרת (אותיות קטנות). אין צורך לערוך קובץ זה - את ההוראות עורכים בתיקייה 'הוראות'.",
+  "sections": [
+    {
+      "key": "coronal",
+      "title": "Coronal view",
+      "pattern": "^coronal\\s*view"
+    },
+    {
+      "key": "sagittal",
+      "title": "Sagittal View",
+      "pattern": "^sagitt?al\\s*view"
+    },
+    {
+      "key": "angle",
+      "title": "Angle view",
+      "pattern": "^angle\\s*view"
+    },
+    {
+      "key": "stab_load",
+      "title": "Stabilimeter - עמידה וחלוקת עומסים",
+      "pattern": "עמידה וחלוקת עומסים|יציבות עמידה וחלוקת כוחות"
+    },
+    {
+      "key": "stab_sway",
+      "title": "Stabilimeter - עמידה ויציבות (Sway)",
+      "pattern": "עמידה ויציבות.*sway"
+    },
+    {
+      "key": "semitandem",
+      "title": "Semi tandem Test",
+      "pattern": "^se(m)?i\\s*-?\\s*tandem"
+    },
+    {
+      "key": "oneleg",
+      "title": "One Leg Test",
+      "pattern": "^one\\s*leg\\s*test"
+    },
+    {
+      "key": "romberg",
+      "title": "Romberg Test",
+      "pattern": "^romberg\\s*test"
+    },
+    {
+      "key": "cop",
+      "title": "COP - Center Of Pressure",
+      "pattern": "^cop\\b.*center\\s*of\\s*pressure"
+    },
+    {
+      "key": "forces",
+      "title": "חלוקת כוחות על פי שלבי ההליכה",
+      "pattern": "^חלוקת כוחות על פי שלבי ה?הליכה"
+    },
+    {
+      "key": "forces_speed",
+      "title": "השוואת כוחות - מהירות איטית מול גבוהה",
+      "pattern": "^השוואת כוחות בין מהירות"
+    },
+    {
+      "key": "pelvis_cor",
+      "title": "אגן בהליכה - מישור קורונלי, סגיטלי וטרנסוורסלי",
+      "pattern": "תנועה של האגן במישור הקורונלי"
+    }
+  ],
+  "discussion": {
+    "key": "discussion",
+    "title": "דיון וסיכום",
+    "pattern": "^דיון\\s*:|^סיכום רפואי\\s*$"
+  },
+  "boundaries": [
+    "^בדיקת stabilimeter",
+    "^בדיקת הליכה ספטיוטמפורלית",
+    "^functional classification",
+    "^בדיקת הליכה על פי שלבי",
+    "^המלצות\\s*:",
+    "^נספח",
+    "^מדדים סטטים",
+    "^אינטגרציה בין"
+  ],
+  "context_stop": [
+    "^המלצות\\s*:",
+    "^נספח"
+  ]
+}

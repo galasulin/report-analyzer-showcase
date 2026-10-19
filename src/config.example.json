@@ -1,0 +1,10 @@
+{
+  "model": "claude-opus-5-5",
+  "max_parallel": 3,
+  "timeout_sec": 420,
+  "max_examples": 2,
+  "ai_color": "000000",
+  "effort": "high",
+  "note_color": "000000",
+  "fix_values": true
+}
