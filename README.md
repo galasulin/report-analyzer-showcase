@@ -11,6 +11,8 @@
 ![Windows](https://img.shields.io/badge/Windows-11-0078D6?logo=windows&logoColor=white)
 ![Status](https://img.shields.io/badge/status-pilot%20in%20clinic-2EC4B6)
 
+**[✨ דמו חי: הזרימה, לפני/אחרי וארכיטקטורה ←](https://galasulin.github.io/report-analyzer-showcase/)** · [Live demo (English)](https://galasulin.github.io/report-analyzer-showcase/?lang=en)
+
 > ⚠️ כל הנתונים, השמות והצילומים במאגר הזה **בדיוניים** ונוצרו לצורך הדגמה בלבד. אין כאן מידע על מטופלים אמיתיים.
 
 ---
@@ -126,6 +128,8 @@ docs/images/            # צילומי מסך
 
 all written directly into the Word file, right-to-left, in the report's own font. Built with Python, python-docx/lxml, tkinter, Pillow and Claude (Opus 5.5) via the Claude Code CLI.
 
+**[Live demo →](https://galasulin.github.io/report-analyzer-showcase/?lang=en)** flow, before/after on fictional data, architecture diagram.
+
 *All names, data and images in this repository are fictional and were created for demonstration purposes only.*
 
 </div>
@@ -135,6 +139,8 @@ all written directly into the Word file, right-to-left, in the report's own font
 <div align="center">
 
 **© 2026 כל הזכויות שמורות לגל אסולין · IT Manager**
+
+Built by [Gal Asulin](https://github.com/galasulin), IT Manager
 
 פותח ועוצב על ידי גל אסולין. אין להעתיק, להפיץ או לשנות ללא אישור בכתב.
 

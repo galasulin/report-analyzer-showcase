@@ -5,3 +5,4 @@ src/config.json
 src/יומן שימוש.csv
 src/שגיאות.log
 tools/sanitize.py
+LINKEDIN_POST.md
